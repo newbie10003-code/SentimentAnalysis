@@ -1,3 +1,4 @@
+pip==23.1.2
 matplotlib==3.7.1
 nltk==3.8.1
 pandas==2.0.1
