@@ -1,6 +1,6 @@
 ## Sentiment Analysis Project in Python using NLP
 
-This project aims to build a sentiment analysis system using Python's Natural Language Processing (NLP) libraries. The system will analyze textual data (e.g., reviews, social media posts) and classify the sentiment as positive, negative, or neutral.
+This project aims to build a sentiment analysis system using Python's Natural Language Processing (NLP) libraries. The system will analyze textual data (twitter data) and classify the sentiment as positive or negative.
 
 **Key Technologies:**
 
@@ -22,25 +22,8 @@ This project aims to build a sentiment analysis system using Python's Natural La
 
 **Model Building and Evaluation:**
 
-* Train a machine learning model (e.g., Naive Bayes, Support Vector Machine) on labeled sentiment data (positive, negative, neutral reviews).
+* Train a machine learning model (Logistic Regression) on labeled sentiment data (positive, negative)
 * Evaluate the model's performance using metrics like accuracy, precision, and recall.
 
-**Potential Applications:**
-
-* Analyze customer reviews and feedback.
-* Track social media sentiment towards brands or products.
-* Gain insights from online forums and discussions.
-
-**Deliverables:**
-
-* Python code for data preprocessing, feature engineering, model training, and evaluation.
-* A trained sentiment analysis model.
-* Performance metrics and analysis of the model's effectiveness.
-
-This project provides a foundation for building a sentiment analysis system. You can further enhance it by exploring:
-
-* Different machine learning models for sentiment classification.
-* Fine-tuning the model for specific domains (e.g., movie reviews, product feedback).
-* Integrating the system with web applications or social media platforms.
 
 Run app.py using the command **streamlit run app.py**
